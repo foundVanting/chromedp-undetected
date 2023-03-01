@@ -1,4 +1,4 @@
-module github.com/Davincible/chromedp-undetected
+module github.com/foundVanting/chromedp-undetected
 
 go 1.19
 

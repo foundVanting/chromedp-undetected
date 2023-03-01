@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/foundVanting/chromedp-undetected/util/easyjson"
 	"io"
 	"math/rand"
 	"os"
@@ -13,8 +14,6 @@ import (
 	"github.com/chromedp/cdproto/emulation"
 	"github.com/chromedp/cdproto/network"
 	"github.com/chromedp/chromedp"
-
-	"github.com/Davincible/chromedp-undetected/util/easyjson"
 )
 
 // Cookie is used to set browser cookies.
